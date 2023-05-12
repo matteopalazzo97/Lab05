@@ -29,7 +29,7 @@ public class AnagrammaDAO {
 				return corretta;
 				
 			}
-			
+			rs.close();
 			conn.close();
 			
 		} catch (SQLException e) {
